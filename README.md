@@ -1,4 +1,4 @@
-# Weather CLI
+# Weather CLI script
 
 [![Screenshot](./screenshot.png)](./screenshot.png)
 

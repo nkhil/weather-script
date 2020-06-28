@@ -6,6 +6,8 @@ I found out about the `curl wttr.in/London` method to get the current temperatur
 
 This is a proxy service for the Openweather API that does some basic data manipulation & serves up the response in plain text so I can render it in a terminal.
 
+**Note**: This currently only returns the weather for London. If you'd like other cities, please open an issue on this repo.
+
 ## Usage
 
 In your terminal, type:

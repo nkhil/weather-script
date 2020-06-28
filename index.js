@@ -1,5 +1,8 @@
-const { get } = require('./src');
+'use strict';
 
-(async function getWeatherForecast() {
-  await get();
-})();
+const config = require('./src/config');
+const app = require('./src');
+
+app.listen(8080, () => {
+  console.log(`Server running on port 8080`);
+});

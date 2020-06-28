@@ -9,8 +9,9 @@ require('dotenv').config();
 function drawResult({temp, tempMin, tempMax, feelsLike, humidity, description}) {
   const ICONS = {
     'clear sky': '☀️',
+    'few clouds': '⛅',
   }
-  const icon = ICONS[description] || undefined;
+  const icon = ICONS[description] || '';
   console.log(
     chalk.white(`Now: ${temp}°C`)
   )

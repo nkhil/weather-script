@@ -29,6 +29,7 @@ async function fetchData() {
   } catch (err) {
     console.log('THERE WAS AN ERROR');
     console.log(err);
+    throw err;
   }
 }
 

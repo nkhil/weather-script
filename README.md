@@ -6,7 +6,11 @@ I found out about the `curl wttr.in/London` method to get the current temperatur
 
 This is a proxy service for the Openweather API that does some basic data manipulation & serves up the response in plain text so I can render it in a terminal.
 
-**Note**: This currently only returns the weather for London. If you'd like other cities, please open an issue on this repo.
+## Note 
+
+This currently only returns the weather for Ediburgh (Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿, UK). If you'd like other cities, please open an issue, submit a PR, or feel free to fork this repo and add your modifications.
+
+I did consider adding location as a parameter, but this is just a personal project and I didn't want to add optimisations before I needed to.
 
 ## Usage
 

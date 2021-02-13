@@ -8,7 +8,7 @@
     "npm": "6.13.6"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node index.js",
     "develop": "nodemon index.js",
     "lint": "eslint \"**/*.js\" --ignore-pattern node_modules/"
@@ -32,6 +32,7 @@
     "eslint-plugin-prettier": "3.1.4",
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.1",
+    "jest": "^26.6.3",
     "nodemon": "2.0.4",
     "prettier": "2.0.5"
   }

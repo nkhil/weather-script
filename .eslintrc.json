@@ -1,7 +1,6 @@
 {
-  "extends": ["airbnb-base", "prettier"],
-  "plugins": ["prettier"],
-  "rules": {
-    "no-console": "off"
-  }
+  "extends": "@subgeniuscorp/eslint-config-node",
+  "plugins": [
+    "prettier"
+  ]
 }

@@ -10,7 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "develop": "nodemon index.js"
+    "develop": "nodemon index.js",
+    "lint": "eslint --ext .js src/"
   },
   "author": "",
   "license": "ISC",
@@ -22,6 +23,8 @@
     "express": "4.17.1"
   },
   "devDependencies": {
+    "@subgeniuscorp/eslint-config-node": "^1.1.0",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-config-node": "4.1.0",
     "eslint-config-prettier": "6.11.0",

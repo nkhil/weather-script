@@ -20,7 +20,8 @@
     "cookie-parser": "1.4.5",
     "cors": "2.8.5",
     "dotenv": "8.2.0",
-    "express": "4.17.1"
+    "express": "4.17.1",
+    "pino": "^6.11.1"
   },
   "devDependencies": {
     "@subgeniuscorp/eslint-config-node": "^1.1.0",

@@ -8,7 +8,7 @@ This is a proxy service for the Openweather API that does some basic data manipu
 
 ## Note 
 
-This currently only returns the weather for Ediburgh (Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿, UK). If you'd like other cities, please open an issue, submit a PR, or feel free to fork this repo and add your modifications.
+This currently only returns the weather for London (England). If you'd like other cities, please open an issue, submit a PR, or feel free to fork this repo and add your modifications.
 
 I did consider adding location as a parameter, but this is just a personal project and I didn't want to add optimisations before I needed to.
 
